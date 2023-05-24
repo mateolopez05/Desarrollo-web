@@ -1,0 +1,313 @@
+*{
+    font-size: 1;
+    font-family: Arial black;
+    font-family: Arial;
+    list-style-type: none;
+    box-sizing: border-box;
+    color: black;
+}
+/*EDICIÓN: HEADER*/
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+/*Html Index*/
+/*Ofertas principales*/
+.navbar.navbar-expand-md.fixed-top.bg-gradient{
+    margin-bottom: 100px;
+}
+.d-block.w-100.imagenprincipal{ 
+    height: 870px;
+}
+.carousel{
+    
+    margin-top: 74px;
+    width: 100%;
+    height: 870px;
+}
+.col{
+    border: 1px solid transparent;
+}
+.col.box-with-shadow {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+/*Html Arma tu pc*//*.*/
+.elegir-procesador{
+    margin-top: 20px;
+}
+.titulo-elegir-procesador{
+    font-size: x-large;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.descripcion-elegir-procesador{
+    font-size: medium;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.procesador{
+        width: 100%;
+        display: flex;
+        padding: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+}
+.amd{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 920px;
+    height: 390px;
+}
+.intel{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 920px;
+    height: 390px;
+}
+/*Html Productos*/
+.categorias-de-productos{
+    width: 400px;
+    height: 1100px;
+    border: 2px solid blueviolet;
+    background-color: darkturquoise;
+}
+.section-productos-destacados{
+    height: 1100px;
+    width: 50%;
+    border: 2px solid rgb(40, 214, 17);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px repeat(3, 333px);
+    justify-content: center;
+    grid-template-areas:
+    "destacados-productos destacados-productos"
+    "img1 img2"
+    "img3 img4"
+    "img5 img6"
+    ;
+    align-items: baseline;
+}
+.destacados-productos{
+    grid-area: destacados-productos;
+    text-align: center;
+    font-size: 35px;
+    display: block;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    grid-area: img1;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+.img2{
+    grid-area: img2;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+.img3{
+    grid-area: img3;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+.img4{
+    grid-area: img4;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+.img5{
+    grid-area: img5;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+.img6{
+    grid-area: img6;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+.section-productos-destacados article img{
+    width: 200px;
+}
+.aside-productos img{
+    height: 1100px;
+    margin: auto;
+    border: 2px solid black;
+    margin-right: 0px;
+}
+/*Html inicio de sesion*/
+.form-inicio-de-sesion{
+    width: 350px;
+    margin: 100px auto;
+    padding: 25px;
+    background-color: #666666;
+    margin-top: 120px;
+}
+.h2forminicio-de-sesion{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+.formulario-inicio-de-sesion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.boton-iniciar-sesion{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    background-color: white;
+    color: #333;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.form-inicio-de-sesion a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Html Ayuda*/
+.form-ayuda{
+    width: 300px;
+    margin: 100px auto;
+    margin-top: 120px;
+    padding: 25px;
+    background-color: #666666;
+    display: flexbox;
+}
+.texto-ayuda{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+.form-nombre-ayuda{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.form-correo-ayuda{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.form-mensaje-ayuda{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.form-buttom-ayuda{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.form-ayuda input{
+    width: 290px;
+}
+.card-img-top.img-fluid{
+    height: 300px;
+    width: 495px;
+
+}
+.btn.btn-primary{
+    align-items: center;
+}
+.titulo-ofertas-destacadas{
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.col{
+    width: 350px;
+}
+.row.row-cols-1.row-cols-md-3.g-4{
+    justify-content: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mb-4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.btn.btn-primary.btn-floating.m-1{
+    border: 0px solid black;
+}
+footer.text-white{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.album.py-5.bg-body-tertiary{
+    margin-bottom: 200px;
+}
+
+
+
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    /* Modifica los estilos de acuerdo a tus necesidades */
+    .elegir-procesador{
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .procesador{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin:auto auto;/*DOS VALORES MODIFICA (TOP Y BOTTOM) SEGUNDO (LEFT Y RIGHT)*/
+    }
+    .amd{
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+        width: 90%;
+        height: 300px;
+    }
+    .intel{
+        position: relative;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 100px;
+        width: 90%;
+        height: 300px;
+    }
+  }
