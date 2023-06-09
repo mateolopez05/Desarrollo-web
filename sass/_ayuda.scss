@@ -1,0 +1,55 @@
+.form-ayuda{
+    border-radius: 3%;
+    width: 650px;
+    margin: auto; /*DOS VALORES MODIFICA (TOP Y BOTTOM) SEGUNDO (LEFT Y RIGHT)*/
+    padding: 20px;
+    background-color: #808080;
+}
+.mapa-local{
+    background-color: #808080;
+    width: 550px;
+    margin: auto;
+    border-radius: 3%;
+}
+.mapa{
+    border-radius: 3%;
+    margin: 10px 20px 30px 30px;
+    width: 500px;
+    height: 380px;
+}
+.titulo-mapa{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.input-nombre{
+    width: 200px;
+}
+.form-ayuda input{
+    width: 300px;
+}
+.texto-ayuda{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+.form-nombre-ayuda{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.form-correo-ayuda{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.form-mensaje-ayuda{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.form-buttom-ayuda{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}

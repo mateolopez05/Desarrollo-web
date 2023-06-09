@@ -1,0 +1,48 @@
+footer.text-white{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.mb-4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    .btn.btn-primary{
+        align-items: center;
+        .btn-floating.m-1{
+            border: 0px solid black;
+            }
+        }
+    }
+.btn.btn-primary.btn-floating.m-1.izq{
+    animation-name: animacionredesizq;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+.btn.btn-primary.btn-floating.m-1.derecha{
+    animation-name: animacionredes;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+    @keyframes animacionredes{
+        0%  { left: 100%;top: 0px;}
+        100%  { left: 0%;top: 0px;}
+
+        }
+    @keyframes animacionredesizq{
+        0%  { right: 100%;top: 0px;}
+        100%  { right: 0%;top: 0px;}
+    }
+    .animate-on-scroll {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 1s, transform 1s;
+      }
+      
+      .animate-on-scroll.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      

@@ -1,0 +1,32 @@
+@import "header";
+
+@import "footer";
+
+@import "arma-tu-pc";
+
+@import "inicio-de-sesion";
+
+@import "ayuda";
+
+@import "productos";
+
+@import "pagina-principal-index";
+
+@import "media-querys";
+
+
+*{
+    font-size: 1;
+    font-family: Arial;
+    list-style-type: none;
+    box-sizing: border-box;
+    color: black;
+    
+}
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}

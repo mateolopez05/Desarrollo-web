@@ -1,0 +1,64 @@
+.form-inicio-de-sesion{
+    border-radius: 3%;
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    margin-top: 3%; /*DOS VALORES MODIFICA (TOP Y BOTTOM) SEGUNDO (LEFT Y RIGHT)*/
+    padding: 20px;
+    background-color: #808080;
+}
+.h1-inicio-de-sesion{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.usuario-email{
+    width: 300px;
+}
+.contraseña-inicio-de-sesion{
+    width: 300px;
+}
+.form-usuario{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.contenedor-boton-inicio-de-sesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton-iniciar-sesion{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    background-color: white;
+    color: #333;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.olvidaste-tu-contraseña{
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.registro{
+    color: black;
+    text-decoration: underline;
+}
+.d-flex.justify-content-center.Iniciar-con{
+    margin-top: 20px;
+}
+.d-flex.justify-content-around.iniciar-sesion-conredes{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.boton-iniciar-sesion:active{
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
