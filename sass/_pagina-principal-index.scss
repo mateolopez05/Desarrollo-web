@@ -1,8 +1,10 @@
 .d-block.w-100.imagenprincipal{ 
     height: 870px;
 }
-.carousel{
+.carousel.slide.sticky-bottom{
     margin-top: 74px;
+}
+.carousel{
     width: 100%;
     height: 870px;
 }
@@ -33,4 +35,7 @@
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
+}
+.titulo-ofertas-destacadas-index{
+    font-size: 30px;
 }
